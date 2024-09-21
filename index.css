@@ -1,0 +1,147 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    border:5px dashed rgb(0, 0, 0);
+    display: inline-flex;
+    margin-right: 10px;
+    align-items:center;
+    justify-content: center;   
+    background-color: rgb(29, 196, 185);
+    position: fixed;
+    font-size: 100;
+
+}
+header img
+{
+    width:10%;
+}
+body
+{
+    background-image: url(../crescimento_energetico_de_sp/img/fundo_animal.jpg);
+    nav-up: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+    font-size: 120%;
+    color:white;
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
+.introducao
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introducao img
+{
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#introducao
+{
+    color:rgb(234, 255, 0);
+    margin-left:46%;
+    width:25%;
+}
+.hidro
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidro img
+{
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#hidro
+{
+    color:rgb(234, 255, 0);
+    margin-left:46%;
+    width:25%;
+}
+figcaption
+{
+    color:rgb(255, 255, 255);
+    margin-right: 400px;
+    font-size: 80%;
+}
+.foto
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto img
+{
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#foto
+{
+    color:rgb(234, 255, 0);
+    margin-left:46%;
+    width:25%;
+}
+.manivela
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.manivela img
+{
+    width: auto;
+    height: 370px;
+    margin-bottom: 20px;
+}
+#manivela
+{
+    color:rgb(234, 255, 0);
+    margin-left:46%;
+    width:25%;
+}
+.manivela iframe
+{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.manivela figcaption
+{
+    color:rgb(255, 255, 255);
+    margin-right: 150px;
+    font-size: 80%;
+}
+.farol_santander img
+{
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 20px;
+    margin-left: 195px;
+}
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+a:hover
+{
+    color:rgb(128, 0, 0);
+    text-decoration: underline;
+}
